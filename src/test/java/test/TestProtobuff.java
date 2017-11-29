@@ -12,7 +12,7 @@ public class TestProtobuff {
     public void testProto() throws Exception {
 
         AddressBookProtos.Person person = AddressBookProtos.Person.newBuilder()
-                .setId(100).setName("zhuliangliang").setEmail("zhuliangliang.me@gmail.com").build();
+                .setId(100).setName("yinzuolong").setEmail("yinzuolong@gmail.com").build();
         System.out.println(person);
         Assert.assertEquals(100, person.getId());
         System.out.println(person.toByteString());
